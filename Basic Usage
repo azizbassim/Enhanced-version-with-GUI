@@ -1,0 +1,11 @@
+# Run with default settings (all CPU cores, 2GB RAM, 10 seconds)
+python src/stress_tester.py
+
+# Custom configuration
+python src/stress_tester.py --cores 4 --ram 2 --duration 30
+
+# Save results to JSON
+python src/stress_tester.py --cores 8 --ram 4 --duration 60 --output
+
+# Quiet mode (minimal output)
+python src/stress_tester.py --cores 4 --duration 20 --quiet
