@@ -40,3 +40,13 @@ pip install -r requirements.txt
 
 # Run the tool
 python src/stress_tester.py
+
+Command Line Options
+
+Option	Description	Default
+-c, --cores	Number of CPU cores to stress	All available cores
+-r, --ram	RAM to allocate in GB	2 GB
+-d, --duration	Test duration in seconds	10 seconds
+-o, --output	Save results to JSON file	False
+-q, --quiet	Suppress detailed output	False
+-h, --help	Show help message	-
