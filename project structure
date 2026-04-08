@@ -1,0 +1,15 @@
+# Create project directory
+mkdir system-stress-tester
+cd system-stress-tester
+
+# Create directory structure
+mkdir src
+mkdir tests
+mkdir docs
+
+# Create files
+touch src/stress_tester.py
+touch requirements.txt
+touch README.md
+touch .gitignore
+touch LICENSE
